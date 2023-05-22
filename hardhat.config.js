@@ -37,11 +37,11 @@ module.exports = {
     },
   },
   solidity: {
-    version: '0.7.6',
+    version: '0.8.18',
     settings: {
       optimizer: {
         enabled: true,
-        runs: 800,
+        runs: 1080,
       },
       metadata: {
         // do not include the metadata hash, since this is machine dependent
